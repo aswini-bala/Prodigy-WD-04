@@ -1,0 +1,175 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #181818;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ff4b4b;
+}
+
+.nav-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    background-color: #222;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #ff4b4b;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero-image {
+    margin-left: 150px; /* Adjust this value to control the image's position */
+}
+
+
+.hero-image img {
+    max-width: 250px;
+    border-radius: 10px;
+    
+}
+
+/* About Me Section */
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skills {
+    list-style: none;
+    padding: 10px;
+}
+
+.skills li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    width: 200px;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-box img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-box {
+    background: #333;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact a {
+    color: #ff4b4b;
+    text-decoration: none;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); /* To make icons visible on dark background */
+}
